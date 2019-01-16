@@ -22,7 +22,9 @@
   /*Example Sitcker Message*/
 	$dataSendMessage['messages'][1] = getFormatStickerMessage(1,1);
   /*Example Image Message*/
-  $dataSendMessage['messages'][2] = getFormatImageMessage("https://example.com/original.jpg","https://example.com/preview.jpg");
+  $originalContentUrl = "https://example.com/original.jpg";
+  $previewImageUrl = "https://example.com/preview.jpg";
+  $dataSendMessage['messages'][2] = getFormatImageMessage($originalContentUrl,$previewImageUrl);
   /*
     Example Video Message
     * OriginalContentURL
