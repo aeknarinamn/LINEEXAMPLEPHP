@@ -12,7 +12,7 @@
 	$replyToken = $deCode['events'][0]['replyToken'];
 
   /*Function Write File LOG*/
-	// file_put_contents('log.txt', file_get_contents('php://input') . PHP_EOL, FILE_APPEND);
+	file_put_contents('log.txt', file_get_contents('php://input') . PHP_EOL, FILE_APPEND);
 
   /*Set Reply Token*/
 	$dataSendMessage['replyToken'] = $replyToken;
@@ -49,7 +49,7 @@
 
   /*Set URL*/
   $functionals['url'] = "https://api.line.me/v2/bot/message/reply";
-  $functionals['token'] = "WMOsQ/4hWzaWxHAtvHw7H36SYWtU2RLT87CeKZk674MrmfcenRwApr+/9BIL1HkuWI9h3e8aDuQ6siofBjQ/rVh49uQEpz8r5It/hnguWF2Vd91lEBWHyQaYuNDvEfkruzMBbLrTXK5cs9wvmKhR/1GUYhWQfeY8sLGRXgo3xvw=";
+  $functionals['token'] = getTokenData();
 
   /*Function Send Message*/
 	sentMessage($encodeJson,$functionals);
