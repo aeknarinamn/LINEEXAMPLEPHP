@@ -10,6 +10,14 @@
 	$deCode = json_decode($datas,true);
   /*GET Reply Token*/
 	$replyToken = $deCode['events'][0]['replyToken'];
+  /*Message Type*/
+  $messageType = $deCode['events'][0]['message']['type'];
+  /*Check Mesage Type Image*/
+  if($messageType == 'image'){
+    /*Get Content Function*/
+    $id = $deCode['events'][0]['message']['id'];
+    getContent($id);
+  }
 
   /*Function Write File LOG*/
 	file_put_contents('log.txt', file_get_contents('php://input') . PHP_EOL, FILE_APPEND);

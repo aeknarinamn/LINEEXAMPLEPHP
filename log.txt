@@ -1,1 +1,15 @@
 {"events":[{"type":"message","replyToken":"c697607336e64d20a2a3307186328898","source":{"userId":"U1a81dc36b7c95042c6ee4718cd5a7c18","type":"user"},"timestamp":1547658085362,"message":{"type":"text","id":"9194483835135","text":"gggg"}}],"destination":"Uf34ef2c60c48fb450b5abba7bda444cf"}
+{"events":[{"type":"postback","replyToken":"25f19034c4864d399169bfb6cade8dd8","source":{"userId":"U1a81dc36b7c95042c6ee4718cd5a7c18","type":"user"},"timestamp":1547666322171,"postback":{"data":"action=buy&itemid=123"}}],"destination":"Uf34ef2c60c48fb450b5abba7bda444cf"}
+{"events":[{"type":"postback","replyToken":"02be83a8843841f8bfd31cf544921c97","source":{"userId":"U1a81dc36b7c95042c6ee4718cd5a7c18","type":"user"},"timestamp":1547666323443,"postback":{"data":"action=buy&itemid=123"}}],"destination":"Uf34ef2c60c48fb450b5abba7bda444cf"}
+
+
+
+
+
+
+
+
+
+
+{"events":[{"type":"message","replyToken":"57f2116a03e942c99bde69e1a3f08d2a","source":{"userId":"U1a81dc36b7c95042c6ee4718cd5a7c18","type":"user"},"timestamp":1549251386096,"message":{"type":"image","id":"9296905795023","contentProvider":{"type":"line"}}}],"destination":"Uf34ef2c60c48fb450b5abba7bda444cf"}
+{"events":[{"type":"message","replyToken":"7da27488458343cda6a53421ff436319","source":{"userId":"U1a81dc36b7c95042c6ee4718cd5a7c18","type":"user"},"timestamp":1549344279564,"message":{"type":"image","id":"9303203118933","contentProvider":{"type":"line"}}}],"destination":"Uf34ef2c60c48fb450b5abba7bda444cf"}
