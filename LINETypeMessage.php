@@ -45,7 +45,7 @@
 	/*Function GET Token*/
 	function getTokenData()
 	{
-		$token = "WMOsQ/4hWzaWxHAtvHw7H36SYWtU2RLT87CeKZk674MrmfcenRwApr+/9BIL1HkuWI9h3e8aDuQ6siofBjQ/rVh49uQEpz8r5It/hnguWF2Vd91lEBWHyQaYuNDvEfkruzMBbLrTXK5cs9wvmKhR/1GUYhWQfeY8sLGRXgo3xvw=";
+		$token = "mHJbIuf7LlUNKYzzGctAgYvSvjemEQCAcSxfCvMT5c+ubYC0VrZ8p6MPogSvvnYHKE3YBM74JKkmBTlTPy/3ZPcYRKMdF1cN2PhXgC5sANgOAC0Hjte0S40RiumBonyRdlXAybCytWDSP0XtnOdnzgdB04t89/1O/w1cDnyilFU=";
 
 		return $token;
 	}
